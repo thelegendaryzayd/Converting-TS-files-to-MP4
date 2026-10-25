@@ -1,3 +1,4 @@
+```text
 # Converting-TS-files-to-MP4
 This following set of instructions help convert TS files to MP4 through built in Windows cmd features
 thelegendaryzayd note
@@ -28,3 +29,4 @@ then copy and paste this after the file: \%~ni.mp4
 
 with spaces ex:
 for %i in ("C:\Users\zaydn\Downloads\book 2 earth\*.ts") do ffmpeg -i "%i" -c copy -bsf:a aac_adtstoasc "C:\Users\zaydn\Downloads\book 2 earth\%~ni.mp4"
+```
